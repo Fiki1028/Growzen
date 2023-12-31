@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:background="@drawable/bghome"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="70dp"
+                    android:layout_height="75dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/pp1" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/imageView5"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Hello,"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/imageView5"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:text="Kim Nayeon"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/notifikasi"
+                    android:layout_width="64dp"
+                    android:layout_height="47dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/notifikasi" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/banner" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:layout_marginTop="296dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Obat Saya"
+            android:textSize="16sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/rectangle_hari"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/im_tablet"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/tblt" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tablet"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/rectangle_hari"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linearLayout14"
+                app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/im_pil"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pillsss" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pil"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/rectangle_hari"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sirupppp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sirup"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Tentang TBC"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Lihat Lainnya"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/biru"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/sv_Home"
+            android:layout_width="411dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout134"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Artikel_1"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/artikel1" />
+
+                <ImageView
+                    android:id="@+id/Artikel_2"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/artikel2" />
+
+                <ImageView
+                    android:id="@+id/Artikel_3"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/artikel3" />
+
+                <ImageView
+                    android:id="@+id/Artikel4"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/artikel4" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020451877062",
+    "project_id": "growzen-2a6a2",
+    "storage_bucket": "growzen-2a6a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020451877062:android:24a71d3abbbcd05c7ee7c7",
+        "android_client_info": {
+          "package_name": "com.example.growzen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmeOY3ukcc2-CGuyN_MoFe9asBw3Bdepk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

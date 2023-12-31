@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemBeranda"
+        android:icon="@drawable/housee"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/itemSharing"
+        android:icon="@drawable/sharinkk"
+        android:title="Sharing" />
+    <item
+        android:id="@+id/itemDataobat"
+        android:icon="@drawable/obatee"
+        android:title="Data obat" />
+    <item
+        android:id="@+id/itemProfile"
+        android:icon="@drawable/profilee"
+        android:title="Profile" />
+</menu>

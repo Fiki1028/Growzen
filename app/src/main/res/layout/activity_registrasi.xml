@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".RegistrasiActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="159dp"
+        android:background="@drawable/bg_login"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Registration"
+            android:textColor="@color/blackfont"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Create your account"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/bg_textview"
+            android:drawableStart="@drawable/userr"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center_vertical"
+            android:hint="Frist Name"
+            android:paddingStart="10dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/bg_textview"
+            android:drawableStart="@drawable/userr"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center_vertical"
+            android:hint="Last Name"
+            android:paddingStart="10dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/bg_textview"
+            android:drawableStart="@drawable/emaill"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center_vertical"
+            android:hint="Email"
+            android:paddingStart="10dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/bg_textview"
+            android:drawableStart="@drawable/pw"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center_vertical"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/biru"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Register"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/sign_google"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/stroke"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Sign in With Google"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_google" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

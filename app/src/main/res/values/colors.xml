@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blackfont">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#00A9FF</color>
+    <color name="transparan">#00FFFFFF</color>
+    <color name="biru">#17A1FA</color>
+    <color name="abu">#B3B3B3</color>
+    <color name="biru_langit">#A0E9FF</color>
+    <color name="biru2">#89CFF3</color>
+</resources>
